@@ -28,14 +28,14 @@ const sketch = (p) => {
 
   p.setup = function () {
     p.createCanvas(400, 400);
-    point = new p5.MovablePoint(200, 200, 15); // <------ create a new movablepoint
+    point = new p5.MovablePoint(200, 200, 15); // <-- create a new movablepoint
   };
 
   p.draw = function () {
     p.background(220);
 
     // Handle drag interactions
-    p.checkClicked([point]); // <------ have interaction amoung multiple points (no need for single point)
+    p.checkClicked([point]); // <-- have interaction amoung multiple points (no need for single point)
 
     // Draw the point
     const [x, y] = point.getPosition();
