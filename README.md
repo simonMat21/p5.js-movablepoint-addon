@@ -53,8 +53,8 @@ const point = new p5.MovablePoint(startX, StartY, clickableRadius);
 
 **Parameters:**
 
-- `x` (number) - Initial x position default is 0
-- `y` (number) - Initial y position default is 0
+- `startX` (number) - Initial x position default is 0
+- `startY` (number) - Initial y position default is 0
 - `clickableRadius` (number) - Click radius for interaction (default: 10)
 
 **Methods:**
@@ -149,27 +149,9 @@ Two boxes that can be dragged and push each other apart on collision.
 
 See `examples/example-3/` for a complete implementation with collision detection and resolution.
 
-## Building from Source
+## Author
 
-```bash
-# Install dependencies
-npm install
-
-# Build the addon
-npm run build
-
-# Output files
-# - dist/movablePoints.min.js (IIFE format for browser)
-# - dist/movablePoints.esm.js (ESM format for imports)
-```
-
-## Browser Support
-
-Works with all modern browsers that support:
-
-- ES6 Classes
-- WeakMap
-- Arrow Functions
+[simonMat.21](https://github.com/simonMat21)
 
 ## License
 
