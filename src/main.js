@@ -27,7 +27,6 @@ export function movablePoints(p5, fn, lifecycles) {
     constructor(startX = 0, startY = 0, clickableRadious = 10) {
       this.x = startX;
       this.y = startY;
-      this.r = clickableRadious;
       this.clickableR = clickableRadious;
       this.clicked = false;
     }

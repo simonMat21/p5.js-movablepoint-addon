@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
-  "author": "",
+  "author": "simonMat21",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
