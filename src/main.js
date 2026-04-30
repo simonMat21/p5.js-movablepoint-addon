@@ -11,7 +11,7 @@ function getDragState(instance) {
   return state;
 }
 
-export function movablePoints(p5, fn, lifecycles) {
+export function movablePoint(p5, fn, lifecycles) {
   // This function will run **before** the `setup()` function of a sketch
   lifecycles.presetup = function () {};
   // This function will run **after** the `setup()` function of a sketch
@@ -79,5 +79,5 @@ export function movablePoints(p5, fn, lifecycles) {
 }
 
 if (typeof p5 !== "undefined") {
-  p5.registerAddon(movablePoints);
+  p5.registerAddon(movablePoint);
 }

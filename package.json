@@ -4,7 +4,7 @@
   "description": "Template project for starting an addon for p5.js",
   "type": "module",
   "exports": {
-    ".": "./dist/movablePoints.esm.js"
+    ".": "./dist/movablePoint.esm.js"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js"

@@ -4,7 +4,7 @@ export default [
   {
     input: "src/main.js",
     output: {
-      file: "dist/movablePoints.min.js",
+      file: "dist/movablePoint.min.js",
       format: "iife",
       name: "movablePoints",
       plugins: [terser()],
@@ -13,7 +13,7 @@ export default [
   {
     input: "src/main.js",
     output: {
-      file: "dist/movablePoints.esm.js",
+      file: "dist/movablePoint.esm.js",
       format: "esm",
     },
   },
